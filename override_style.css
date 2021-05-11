@@ -1,0 +1,92 @@
+.bg-main-block {
+    padding: 20px 16px 20px 16px;
+    border-radius: 4px;
+    background: #17171a;
+}
+
+.forum-theme__item-right {
+    border-left: 2px solid #333339;
+    margin: -13px 0px -13px 0px;
+    padding-left: 10px;
+}
+body#id{
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkAQMAAABKLAcXAAAABlBMVEUfHx8aGhrh02scAAAAH0lEQVR4AWMQRAICeHn/kcAH8vSN6hvVN6pvVN+oPgAPQ4LItqOMdQAAAABJRU5ErkJggg==");
+}
+.forum-theme__item .forum-theme__item-like-link--like img{
+    content:url("https://i.imgur.com/g5sa4Za.png");
+}
+.forum-theme__item .forum-theme__item-like-link--dislike img{
+    content:url("https://i.imgur.com/6LepCre.png");
+}
+
+a.forum-section__title-unread  i {
+    color: #15e122;
+}
+
+.forum-page__section-3 {
+    background: linear-gradient(
+264.15deg
+,rgba(23,23,26,.1) 81.4%,rgba(76, 82, 100, .1) 100%),#17171a;
+}
+
+.forum-page__section-3 .forum-page__item::after, .forum-page__section-3 .forum-page__item::before {
+    background-image: linear-gradient(#059fff 25%,rgba(255,255,255,0) 0);
+}
+
+.theme-user-block .text-clip, .text-clip-row {
+    text-align: center;
+}
+
+.forum-theme__item-status {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+.forum-theme__item-info {
+    text-align: center;
+    font-size: 11px;
+    font-family: Arial;
+    transform: scale(1);
+    width: 100%;
+    
+}
+
+.owl-matches {
+    display: none;
+}
+
+.component-block__list {
+    border-top: 1px solid #3d3d44;
+    padding-bottom: 12px;
+}
+.component-block__block {
+    border-top: none;
+}
+.component-block__link-wrapper, .video__item, .streams__item, .tournament__item {
+     border-top: 1px solid #36363c;
+}
+
+.index__news-item {
+    border: 2px solid #2e2e33;
+    background-color: #1f2022;
+    margin: 5px;
+    border-radius: 6px;
+}
+.index__news-name, .index__news-stat {
+    padding: 0px 5px 0px 5px;
+}
+
+.component-block {
+    border: 2px solid #2e2e33;
+}
+.adv {
+    display: none;
+}
+.memes {
+    margin-top: 0px;
+}
+
+* {
+    font-family: Arial;
+    letter-spacing: 0px;
+}
